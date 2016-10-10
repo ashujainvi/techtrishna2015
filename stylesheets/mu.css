@@ -1,0 +1,100 @@
+﻿@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic&subset=latin,cyrillic);
+@import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,cyrillic);
+
+html, body {
+    width: 100%;
+    min-width: 1280px;
+    height: 100%;
+    font-size: 14px;
+    font-family: lato,Arial, sans-serif;
+    background-color: #041527;
+    background-attachment:fixed;
+    
+}
+
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.page-wrapper {
+    position: relative;
+    width: 100%;
+    min-height: 2000px;
+    background: url(../img/bg-main.png);
+    overflow: hidden;
+    z-index: 0;
+}
+
+#registerButton {
+    margin-top:-15px;
+}
+
+.screen {
+    /*margin-top:300px;*/
+}
+a, a:hover, a:active, a:focus {
+    text-decoration:none;
+    color:white;
+}
+
+
+
+.timeline {
+    text-align:center;
+}
+
+    .timeline a, .timeline a:hover {
+        font-size:13px;
+        letter-spacing:1px;
+        text-decoration:none;
+        color:#eee;
+    }
+
+    .timeline a:active, .timeline a:focus{
+        text-shadow: 1px 2px 13px #00ff21;
+    }
+
+#option1{
+   margin-top:10px;
+   left:25px;
+}
+#option2 {
+    margin-top:20px;
+    left:50px;
+}
+#option3 {
+    margin-top:30px;
+    left:70px;
+}
+#option4 {
+    margin-top:30px;
+    left:70px;
+}
+#option5{
+    margin-top:50px;
+}
+#option6 {
+    margin-top:60px;
+    left:25px;
+}
+
+.fb-like {
+    margin-right:10px;
+}
+
+.scroll-link:hover{
+   color:white; 
+}
+.arrow-down-p1 {
+    font-size:13px;
+}
+.arrow-down-p2 {
+    margin-top: 9px;
+font-size: 16px;
+}
+.arrow-down-p3 {
+    margin-top: 18px;
+font-size: 20px;
+}
